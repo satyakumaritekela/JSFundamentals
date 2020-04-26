@@ -11,6 +11,7 @@ let person = {
 }
 
 // __proto__ is used for the inherting the properties and functions of the assigned object
+// and also __proto__ is like an objct of prototype which is like a blueprint or class
 name.__proto__ = person;
 
 console.log(name.city);
